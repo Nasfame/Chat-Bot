@@ -1,4 +1,4 @@
-let socket = io("http://localhost:3238")
+let socket = io("https://chatbot-india.herokuapp.com/")
 let chat = document.getElementById("sendMessage")
 let messageInput = document.getElementById("messageInput")
 let msgs = document.querySelector(".messages")
